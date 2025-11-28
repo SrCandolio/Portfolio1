@@ -9,7 +9,7 @@
     }
 
     // Obtener el elemento del título por su ID
-    const titulo = document.getElementById("SubtitulosProyectos");
+    const titulo = document.getElementById("titulo");
             
     // Agregar eventos para cambiar el color cuando se pasa el mouse por encima y restaurar el color cuando se saca el mouse
             
