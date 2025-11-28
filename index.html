@@ -7,7 +7,29 @@
 
 <body>
 
-<script src="js/script.js"> </script>
+<script >
+	function cambiarColor(elemento){
+            elemento.style.color = "red";
+	}
+
+	function restaurarColor(elemento){
+            elemento.style.color = "blue";
+	}
+
+	const titulo = document.getElementById("titulo")
+
+	titulo.addEventListener("mouseover", function () { 
+        
+        cambiarColor(titulo);
+	}
+
+	 titulo.addEventListener("mouseout", function () { 
+        
+        restaurarColor(titulo);
+        
+    }
+	
+</script>
 
 	<h1 class="TituloPrincipal">Proyectos</h1>
 <style>
@@ -73,6 +95,7 @@ los cuales sirven para abrir una puerta para ganar el juego</p>
 
 	
 </body>	
+
 
 
 
